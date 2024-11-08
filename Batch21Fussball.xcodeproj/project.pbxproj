@@ -11,6 +11,7 @@
 		D7DB53CE2CDE0C080083E4DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB53CD2CDE0C080083E4DC /* ContentView.swift */; };
 		D7DB53D02CDE0C090083E4DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DB53CF2CDE0C090083E4DC /* Assets.xcassets */; };
 		D7DB53D32CDE0C090083E4DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DB53D22CDE0C090083E4DC /* Preview Assets.xcassets */; };
+		D7DB53DB2CDE0C690083E4DC /* fussball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DB53DA2CDE0C690083E4DC /* fussball.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D7DB53CD2CDE0C080083E4DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D7DB53CF2CDE0C090083E4DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7DB53D22CDE0C090083E4DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7DB53DA2CDE0C690083E4DC /* fussball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fussball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		D7DB53CA2CDE0C080083E4DC /* Batch21Fussball */ = {
 			isa = PBXGroup;
 			children = (
+				D7DB53D92CDE0C560083E4DC /* Models */,
 				D7DB53CB2CDE0C080083E4DC /* Batch21FussballApp.swift */,
 				D7DB53CD2CDE0C080083E4DC /* ContentView.swift */,
 				D7DB53CF2CDE0C090083E4DC /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				D7DB53D22CDE0C090083E4DC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7DB53D92CDE0C560083E4DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7DB53DA2CDE0C690083E4DC /* fussball.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7DB53DB2CDE0C690083E4DC /* fussball.swift in Sources */,
 				D7DB53CE2CDE0C080083E4DC /* ContentView.swift in Sources */,
 				D7DB53CC2CDE0C080083E4DC /* Batch21FussballApp.swift in Sources */,
 			);

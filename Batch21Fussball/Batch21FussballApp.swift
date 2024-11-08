@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
-
+import SwiftData
 @main
 struct Batch21FussballApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for:[Spieler.self,Manschaft.self])
         }
     }
 }
